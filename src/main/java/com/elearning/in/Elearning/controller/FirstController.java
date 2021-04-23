@@ -41,10 +41,8 @@ public class FirstController {
 	
 	@RequestMapping(value = "/register", method = RequestMethod.POST)
 	public void  registerUser(@RequestBody User user) {
-		// model.addAttribute("login", new Login());
-		//ModelAndView registerView = new ModelAndView();
+		System.out.println(user.getFirstname());
 		userService.saveUser(user);
-		//registerView.setViewName("");
 		
 	}
 

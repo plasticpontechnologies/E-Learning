@@ -2,7 +2,7 @@ package com.elaerning.in.Elearning.model;
 
 public class User {
 
-	private String first_name;
+	private String firstname;
 	private String last_name;
 	private String dob;
 	private String gender;
@@ -11,14 +11,7 @@ public class User {
 	private String password;
 	private boolean enabled;
 	
-	public String getFirst_name() {
-		return first_name;
-	}
-
-	public void setFirst_name(String first_name) {
-		this.first_name = first_name;
-	}
-
+	
 	public String getLast_name() {
 		return last_name;
 	}
@@ -73,6 +66,14 @@ public class User {
 
 	public void setEnabled(boolean enabled) {
 		this.enabled = enabled;
+	}
+
+	public String getFirstname() {
+		return firstname;
+	}
+
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
 	}
 
 	
